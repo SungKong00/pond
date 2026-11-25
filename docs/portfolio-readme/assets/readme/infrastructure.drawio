@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="pond-infra" name="Pond | Cloudflare 배포와 현장 재생" alt="Pond | Cloudflare 배포와 현장 재생 · Workers Static Assets 배포 · 세션마다 지정된 PC 한 대">
+    <mxGraphModel page="1" pageScale="1" pageWidth="1330" pageHeight="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="canvas" parent="1" vertex="1" value="" style="fillColor=#FFFFFF;strokeColor=none;movable=0;resizable=0;editable=0;selectable=0;html=0;">
+          <mxGeometry x="0" y="0" width="1330" height="695" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" vertex="1" value="Pond | Cloudflare 배포와 현장 재생" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#15283D;fontSize=35;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="43" y="24" width="1245" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" vertex="1" value="Workers Static Assets 배포 · 세션마다 지정된 PC 한 대" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#485D72;fontSize=21;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="45" y="74" width="1240" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud" parent="1" vertex="1" value="Cloudflare · 하나의 Worker 배포" style="rounded=1;arcSize=7;html=0;whiteSpace=wrap;fillColor=#F8FBFD;fillOpacity=85;strokeColor=#C8DAE5;dashed=1;dashPattern=7 5;strokeWidth=1.2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=9;fontSize=16;fontStyle=1;fontColor=#435D72;fontFamily=Arial;">
+          <mxGeometry x="308" y="136" width="557" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="venue" parent="1" vertex="1" value="현장 · 재생 장치" style="rounded=1;arcSize=7;html=0;whiteSpace=wrap;fillColor=#F8FBFD;fillOpacity=85;strokeColor=#C8DAE5;dashed=1;dashPattern=7 5;strokeWidth=1.2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=9;fontSize=16;fontStyle=1;fontColor=#435D72;fontFamily=Arial;">
+          <mxGeometry x="924" y="136" width="240" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="52" y="220" width="174" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile_tile" parent="mobile" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile_icon" parent="mobile" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile_label" parent="mobile" vertex="1" value="관객 브라우저" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=18;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile_desc" parent="mobile" vertex="1" value="공개 웹 · 모바일 QR" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=12;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="static" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="337" y="190" width="212" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="static_tile" parent="static" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="static_icon" parent="static" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iNCIgeD0iOCIgeT0iMiIgcng9IjEiIHJ5PSIxIiAvPgogIDxwYXRoIGQ9Ik0xNiA0aDJhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY2YTIgMiAwIDAgMSAyLTJoMiIgLz4KICA8cGF0aCBkPSJNMTIgMTFoNCIgLz4KICA8cGF0aCBkPSJNMTIgMTZoNCIgLz4KICA8cGF0aCBkPSJNOCAxMWguMDEiIC8+CiAgPHBhdGggZD0iTTggMTZoLjAxIiAvPgo8L3N2Zz4K;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="static_label" parent="static" vertex="1" value="Workers Static Assets" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=14;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="158" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="static_desc" parent="static" vertex="1" value="Vite 웹 · 음악/공간 파일" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=13;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="158" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="worker" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="339" y="362" width="210" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="worker_tile" parent="worker" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#A7BBD8;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="worker_icon" parent="worker" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMyMTRGODciCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="worker_label" parent="worker" vertex="1" value="Cloudflare Worker" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=16;fontColor=#214F87;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="156" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="worker_desc" parent="worker" vertex="1" value="API · WebSocket" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="156" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="do" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="650" y="362" width="195" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="do_tile" parent="do" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="do_icon" parent="do" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPGVsbGlwc2UgY3g9IjEyIiBjeT0iNSIgcng9IjkiIHJ5PSIzIiAvPgogIDxwYXRoIGQ9Ik0zIDVWMTlBOSAzIDAgMCAwIDIxIDE5VjUiIC8+CiAgPHBhdGggZD0iTTMgMTJBOSAzIDAgMCAwIDIxIDEyIiAvPgo8L3N2Zz4K;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="do_label" parent="do" vertex="1" value="Room Durable Object" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=14;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="141" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="do_desc" parent="do" vertex="1" value="SQLite · ROOM 바인딩" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=12;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="141" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="pc" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="948" y="190" width="188" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_tile" parent="pc" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_icon" parent="pc" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_label" parent="pc" vertex="1" value="지정 재생 PC" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="134" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_desc" parent="pc" vertex="1" value="브라우저 Web Audio" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=13;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="134" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="speak" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="964" y="370" width="164" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="speak_tile" parent="speak" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="speak_icon" parent="speak" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3QgeD0iMTYiIHk9IjE2IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cmVjdCB4PSIyIiB5PSIxNiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiIC8+CiAgPHJlY3QgeD0iOSIgeT0iMiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiIC8+CiAgPHBhdGggZD0iTTUgMTZ2LTNhMSAxIDAgMCAxIDEtMWgxMmExIDEgMCAwIDEgMSAxdjMiIC8+CiAgPHBhdGggZD0iTTEyIDEyVjgiIC8+Cjwvc3ZnPgo=;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="speak_label" parent="speak" vertex="1" value="현장 스피커" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=19;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="110" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="speak_desc" parent="speak" vertex="1" value="PC 오디오 출력" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=15;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="110" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="radio" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="661" y="529" width="184" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="radio_tile" parent="radio" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#ABB7C1;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="radio_icon" parent="radio" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM0MzU5NjgiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHBhdGggZD0iTTE3LjUgMTlIOWE3IDcgMCAxIDEgNi43MS05aDEuNzlhNC41IDQuNSAwIDEgMSAwIDlaIiAvPgo8L3N2Zz4K;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="radio_label" parent="radio" vertex="1" value="외부 라디오" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#435968;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="130" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="radio_desc" parent="radio" vertex="1" value="방송 스트림" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="130" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-0" value="HTTPS 웹" edge="1" parent="1" source="static" target="mobile" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-1" value="API / WS" edge="1" parent="1" source="mobile" target="worker" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="139" y="399" />
+              <mxPoint x="281" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-2" value="Room 바인딩" edge="1" parent="1" source="worker" target="do" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3" value="HTTPS 파일" edge="1" parent="1" source="static" target="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-4" value="세션 API / WS" edge="1" parent="1" source="worker" target="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="444" y="307" />
+              <mxPoint x="1042" y="307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-5" value="직접 스트리밍" edge="1" parent="1" source="radio" target="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1202" y="565" />
+              <mxPoint x="1202" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-6" value="출력 장치" edge="1" parent="1" source="pc" target="speak" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" vertex="1" value="Cloudflare Pages나 별도 오디오 중계 서버를 쓰는 구성이 아니다. 현장 스피커 청취는 이 README 시연 범위 밖이다." style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#43586D;fontSize=17;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="45" y="643" width="1240" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

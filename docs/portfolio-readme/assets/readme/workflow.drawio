@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="pond-workflow" name="Pond | 공간 채널만 바꾸고 다시 켜기" alt="Pond | 공간 채널만 바꾸고 다시 켜기 · 배포본 모바일 UI + 격리된 테스트 룸 · 운영 스피커와 연결하지 않은 시연">
+    <mxGraphModel page="1" pageScale="1" pageWidth="1360" pageHeight="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="canvas" parent="1" vertex="1" value="" style="fillColor=#FFFFFF;strokeColor=none;movable=0;resizable=0;editable=0;selectable=0;html=0;">
+          <mxGeometry x="0" y="0" width="1360" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" vertex="1" value="Pond | 공간 채널만 바꾸고 다시 켜기" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#15283D;fontSize=35;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="43" y="24" width="1275" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" vertex="1" value="배포본 모바일 UI + 격리된 테스트 룸 · 운영 스피커와 연결하지 않은 시연" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#485D72;fontSize=21;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="45" y="74" width="1270" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ocean" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="52" y="222" width="168" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="ocean_tile" parent="ocean" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ocean_icon" parent="ocean" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ocean_label" parent="ocean" vertex="1" value="깊은 바다" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="114" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="ocean_desc" parent="ocean" vertex="1" value="공간 채널 재생 중" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=13;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="114" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="wait" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="307" y="222" width="175" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="wait_tile" parent="wait" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#CFB879;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wait_icon" parent="wait" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM3NjUwMDgiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHBhdGggZD0iTTkgNWg4LjVhMSAxIDAgMDEwIDdoLTExYTEgMSAwIDAwMCA3SDE1IiAvPgogIDxjaXJjbGUgY3g9IjE4IiBjeT0iMTkiIHI9IjMiIC8+CiAgPGNpcmNsZSBjeD0iNiIgY3k9IjUiIHI9IjMiIC8+Cjwvc3ZnPgo=;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="wait_label" parent="wait" vertex="1" value="변경 대기" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#765008;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="121" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="wait_desc" parent="wait" vertex="1" value="로컬 룸 결과를 기다림" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=12;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="121" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="new" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="568" y="222" width="166" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="new_tile" parent="new" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="new_icon" parent="new" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="new_label" parent="new" vertex="1" value="비와 천둥" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="112" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="new_desc" parent="new" vertex="1" value="새 항목 재생 표시" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=13;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="112" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="stop" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="829" y="222" width="173" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="stop_tile" parent="stop" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#C9A899;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stop_icon" parent="stop" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM4QjNDMjUiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="stop_label" parent="stop" vertex="1" value="공간만 정지" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#8B3C25;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="119" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="stop_desc" parent="stop" vertex="1" value="같은 항목 · 다음 잠김" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=12;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="119" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="resume" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="1103" y="222" width="192" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="resume_tile" parent="resume" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="resume_icon" parent="resume" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
+          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="resume_label" parent="resume" vertex="1" value="같은 항목 재개" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=20;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="138" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="resume_desc" parent="resume" vertex="1" value="비와 천둥 · 재생 중" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=15;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="138" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-0" value="다음 소리" edge="1" parent="1" source="ocean" target="wait" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-1" value="결과 수신" edge="1" parent="1" source="wait" target="new" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-2" value="정지" edge="1" parent="1" source="new" target="stop" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3" value="재생" edge="1" parent="1" source="stop" target="resume" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" vertex="1" value="음악·라디오는 전 단계에서 재생 중 표시 유지. QR 스캔은 생략했고 대기는 속도 측정값이 아니다." style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#43586D;fontSize=17;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="45" y="433" width="1270" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
