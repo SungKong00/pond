@@ -1,193 +1,169 @@
-<mxfile host="app.diagrams.net" type="device">
-  <diagram id="pond" name="Pond | 관객은 조작하고, 현장 PC만 재생한다" alt="Pond | 관객은 조작하고, 현장 PC만 재생한다 · 배포 UI 구조 · 세션별 요청과 PC 응답으로 확정 상태를 동기화">
-    <mxGraphModel page="1" pageScale="1" pageWidth="1416" pageHeight="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" math="0" shadow="0" background="#FFFFFF">
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="32.7.4">
+  <diagram id="Pond  /  시스템  ·  제어와 오디오 분리" name="Pond  /  시스템  ·  제어와 오디오 분리">
+    <mxGraphModel page="1" pageWidth="760" pageHeight="543" grid="1" gridSize="10" connect="1" arrows="1" fold="1" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="canvas" parent="1" vertex="1" value="" style="fillColor=#FFFFFF;strokeColor=none;movable=0;resizable=0;editable=0;selectable=0;html=0;">
-          <mxGeometry x="0" y="0" width="1416" height="788" as="geometry" />
+        <mxCell id="bounds" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="760" height="543" as="geometry" />
         </mxCell>
-        <mxCell id="title" parent="1" vertex="1" value="Pond | 관객은 조작하고, 현장 PC만 재생한다" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#15283D;fontSize=35;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="43" y="24" width="1331" height="45" as="geometry" />
+        <mxCell id="decor1" value="Pond  /  시스템  ·  제어와 오디오 분리" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=13;fontColor=#14679D;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="24" y="17" width="712" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" parent="1" vertex="1" value="배포 UI 구조 · 세션별 요청과 PC 응답으로 확정 상태를 동기화" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#485D72;fontSize=21;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="45" y="74" width="1326" height="39" as="geometry" />
+        <mxCell id="decor2" value="관객은 제어하고 현장 PC가 재생" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=27;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="24" y="41" width="712" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="cloud" parent="1" vertex="1" value="Cloudflare · 제어 및 정적 에셋" style="rounded=1;arcSize=7;html=0;whiteSpace=wrap;fillColor=#F8FBFD;fillOpacity=85;strokeColor=#C8DAE5;dashed=1;dashPattern=7 5;strokeWidth=1.2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=9;fontSize=16;fontStyle=1;fontColor=#435D72;fontFamily=Arial;">
-          <mxGeometry x="316" y="133" width="522" height="560" as="geometry" />
+        <mxCell id="control" value="" style="rounded=1;arcSize=6;strokeWidth=1.4;strokeColor=#A7C4D7;fillColor=#F2F8FC;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="22" y="101" width="716" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="venue" parent="1" vertex="1" value="현장 · 지정 PC" style="rounded=1;arcSize=7;html=0;whiteSpace=wrap;fillColor=#F8FBFD;fillOpacity=85;strokeColor=#C8DAE5;dashed=1;dashPattern=7 5;strokeWidth=1.2;align=left;verticalAlign=top;spacingLeft=14;spacingTop=9;fontSize=16;fontStyle=1;fontColor=#435D72;fontFamily=Arial;">
-          <mxGeometry x="983" y="215" width="385" height="426" as="geometry" />
+        <mxCell id="decor3" value="제어 · 재생 명령과 확정 상태" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=18;fontColor=#14679D;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="108" width="692" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="phone" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="47" y="228" width="209" height="82" as="geometry" />
+        <mxCell id="phone" value="" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D4DFE7;strokeWidth=1.1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="151" width="205" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="phone_tile" parent="phone" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="21" width="40" height="40" as="geometry" />
+        <mxCell id="decor4" value="" style="ellipse;fillColor=#E0F2EB;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="165.0" width="43" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="phone_icon" parent="phone" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
-          <mxGeometry x="10" y="29" width="24" height="24" as="geometry" />
+        <mxCell id="decor5" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23087D68%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%2210%22%20y%3D%224%22%20width%3D%2228%22%20height%3D%2240%22%20rx%3D%225%22%2F%3E%3Cpath%20d%3D%22M17%2010h14M22%2038h4%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="57.16" y="170.16" width="32.68" height="32.68" as="geometry" />
         </mxCell>
-        <mxCell id="phone_label" parent="phone" vertex="1" value="관객 휴대폰" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="14" width="155" height="29" as="geometry" />
+        <mxCell id="decor6" value="관객 휴대폰" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=17;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="160" width="139" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="phone_desc" parent="phone" vertex="1" value="QR 참여 · 재생 / 정지 / 다음" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=12;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="42" width="155" height="38" as="geometry" />
+        <mxCell id="decor7" value="QR 참여 · 재생 제어" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=14;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="185" width="139" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="worker" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="365" y="228" width="177" height="82" as="geometry" />
+        <mxCell id="worker" value="" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D4DFE7;strokeWidth=1.1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="151" width="205" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="worker_tile" parent="worker" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="21" width="40" height="40" as="geometry" />
+        <mxCell id="decor8" value="" style="ellipse;fillColor=#E4F0F8;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="165.0" width="43" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="worker_icon" parent="worker" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="29" width="24" height="24" as="geometry" />
+        <mxCell id="decor9" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%2314679D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M13%2035a8%208%200%201%201%201-16%2011%2011%200%200%201%2021-3%2010%2010%200%201%201%200%2019z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="295.16" y="170.16" width="32.68" height="32.68" as="geometry" />
         </mxCell>
-        <mxCell id="worker_label" parent="worker" vertex="1" value="Worker" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="14" width="123" height="29" as="geometry" />
+        <mxCell id="decor10" value="Cloudflare Worker" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=17;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="342" y="160" width="139" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="worker_desc" parent="worker" vertex="1" value="API · WebSocket" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=14;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="42" width="123" height="38" as="geometry" />
+        <mxCell id="decor11" value="API · WebSocket" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=14;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="342" y="185" width="139" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="room" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="627" y="228" width="181" height="82" as="geometry" />
+        <mxCell id="room" value="" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D4DFE7;strokeWidth=1.1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="151" width="205" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="room_tile" parent="room" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="21" width="40" height="40" as="geometry" />
+        <mxCell id="decor12" value="" style="ellipse;fillColor=#E4F0F8;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="165.0" width="43" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="room_icon" parent="room" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPGVsbGlwc2UgY3g9IjEyIiBjeT0iNSIgcng9IjkiIHJ5PSIzIiAvPgogIDxwYXRoIGQ9Ik0zIDVWMTlBOSAzIDAgMCAwIDIxIDE5VjUiIC8+CiAgPHBhdGggZD0iTTMgMTJBOSAzIDAgMCAwIDIxIDEyIiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="29" width="24" height="24" as="geometry" />
+        <mxCell id="decor13" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%2314679D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cellipse%20cx%3D%2224%22%20cy%3D%2211%22%20rx%3D%2215%22%20ry%3D%226%22%2F%3E%3Cpath%20d%3D%22M9%2011v24c0%208%2030%208%2030%200V11M9%2023c0%208%2030%208%2030%200%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="527.16" y="170.16" width="32.68" height="32.68" as="geometry" />
         </mxCell>
-        <mxCell id="room_label" parent="room" vertex="1" value="Room Durable Object" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=14;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="14" width="127" height="29" as="geometry" />
+        <mxCell id="decor14" value="Room 객체" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=17;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="574" y="160" width="139" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="room_desc" parent="room" vertex="1" value="SQLite · 세션 확정 상태" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=12;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="42" width="127" height="38" as="geometry" />
+        <mxCell id="decor15" value="세션 상태 · SQLite" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=14;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="574" y="185" width="139" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="assets" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="381" y="496" width="188" height="77" as="geometry" />
+        <mxCell id="result" value="" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D4DFE7;strokeWidth=1.1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="242" width="205" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="assets_tile" parent="assets" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="18" width="40" height="40" as="geometry" />
+        <mxCell id="decor16" value="" style="ellipse;fillColor=#E0F2EB;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="252.5" width="43" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="assets_icon" parent="assets" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iNCIgeD0iOCIgeT0iMiIgcng9IjEiIHJ5PSIxIiAvPgogIDxwYXRoIGQ9Ik0xNiA0aDJhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY2YTIgMiAwIDAgMSAyLTJoMiIgLz4KICA8cGF0aCBkPSJNMTIgMTFoNCIgLz4KICA8cGF0aCBkPSJNMTIgMTZoNCIgLz4KICA8cGF0aCBkPSJNOCAxMWguMDEiIC8+CiAgPHBhdGggZD0iTTggMTZoLjAxIiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="26" width="24" height="24" as="geometry" />
+        <mxCell id="decor17" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23087D68%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2224%22%20r%3D%2217%22%2F%3E%3Cpath%20d%3D%22m17%2024%205%205%209-10M6%2024h4m28%200h4%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="57.16" y="257.66" width="32.68" height="32.68" as="geometry" />
         </mxCell>
-        <mxCell id="assets_label" parent="assets" vertex="1" value="정적 음원 파일" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=19;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="11" width="134" height="29" as="geometry" />
+        <mxCell id="decor18" value="관객 UI에 상태 반영" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=17;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="251" width="139" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="assets_desc" parent="assets" vertex="1" value="PC가 파일 검증" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="39" width="134" height="35" as="geometry" />
+        <mxCell id="decor19" value="PC 실행 결과를 확인" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=14;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="276" width="139" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="pc" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="1048" y="252" width="251" height="82" as="geometry" />
+        <mxCell id="decor20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#14679D;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=0;dashPattern=5 5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="phone" target="worker">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pc_tile" parent="pc" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="21" width="40" height="40" as="geometry" />
+        <mxCell id="decor21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#14679D;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=0;dashPattern=5 5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="worker" target="room">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pc_icon" parent="pc" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
-          <mxGeometry x="10" y="29" width="24" height="24" as="geometry" />
+        <mxCell id="decor22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#087D68;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=1;dashPattern=5 5;exitX=0;exitY=0.74;entryX=1;entryY=0.74;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="room" target="worker">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pc_label" parent="pc" vertex="1" value="지정된 현장 PC" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="14" width="197" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="pc_desc" parent="pc" vertex="1" value="Web Audio · HTML Audio" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=15;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="42" width="197" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="radio" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="59" y="520" width="192" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="radio_tile" parent="radio" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#ABB7C1;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="radio_icon" parent="radio" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM0MzU5NjgiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHBhdGggZD0iTTE3LjUgMTlIOWE3IDcgMCAxIDEgNi43MS05aDEuNzlhNC41IDQuNSAwIDEgMSAwIDlaIiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="radio_label" parent="radio" vertex="1" value="외부 라디오" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#435968;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="138" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="radio_desc" parent="radio" vertex="1" value="방송 스트림" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="138" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="spk" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="1082" y="520" width="192" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="spk_tile" parent="spk" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="spk_icon" parent="spk" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3QgeD0iMTYiIHk9IjE2IiB3aWR0aD0iNiIgaGVpZ2h0PSI2IiByeD0iMSIgLz4KICA8cmVjdCB4PSIyIiB5PSIxNiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiIC8+CiAgPHJlY3QgeD0iOSIgeT0iMiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiIC8+CiAgPHBhdGggZD0iTTUgMTZ2LTNhMSAxIDAgMCAxIDEtMWgxMmExIDEgMCAwIDEgMSAxdjMiIC8+CiAgPHBhdGggZD0iTTEyIDEyVjgiIC8+Cjwvc3ZnPgo=;">
-          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="spk_label" parent="spk" vertex="1" value="현장 스피커" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="138" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="spk_desc" parent="spk" vertex="1" value="혼합 오디오" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="138" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-0" value="조작 요청" edge="1" parent="1" source="phone" target="worker" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+        <mxCell id="decor23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#087D68;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=1;dashPattern=5 5;exitX=0.14;exitY=1;entryX=1;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="worker" target="result">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="213" />
-              <mxPoint x="340" y="213" />
+              <mxPoint x="309" y="274" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge-1" value="확정 상태" edge="1" parent="1" source="worker" target="phone" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;dashed=1;dashPattern=6 4;strokeColor=#75818D;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="327" />
-              <mxPoint x="280" y="327" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="audio" value="" style="rounded=1;arcSize=6;strokeWidth=1.4;strokeColor=#DABB96;fillColor=#FFFAF0;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="22" y="344" width="716" height="154" as="geometry" />
         </mxCell>
-        <mxCell id="edge-2" value="요청 전달" edge="1" parent="1" source="worker" target="room" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="581" y="214" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="decor24" value="오디오 · 현장 LAN에서 출력" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=18;fontColor=#A9530D;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="351" width="692" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="edge-3" value="세션 응답" edge="1" parent="1" source="room" target="worker" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;dashed=1;dashPattern=6 4;strokeColor=#75818D;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="582" y="325" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="src" value="" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D4DFE7;strokeWidth=1.1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="398" width="205" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="edge-4" value="PC에 재생 명령" edge="1" parent="1" source="worker" target="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points"><mxPoint x="453" y="195" /><mxPoint x="1173" y="195" /></Array><mxPoint x="0" y="-9" as="offset" /></mxGeometry>
+        <mxCell id="decor25" value="" style="ellipse;fillColor=#FFF0DE;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="413.0" width="43" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="edge-5" value="PC가 실행 결과 보고" edge="1" parent="1" source="pc" target="worker" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;dashed=1;dashPattern=6 4;strokeColor=#75818D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points"><mxPoint x="1173" y="367" /><mxPoint x="453" y="367" /></Array></mxGeometry>
+        <mxCell id="decor26" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23A9530D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M8%2018h7l10-9v30l-10-9H8zM31%2016c5%205%205%2011%200%2016m5-21c8%208%208%2018%200%2026%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="57.16" y="418.16" width="32.68" height="32.68" as="geometry" />
         </mxCell>
-        <mxCell id="edge-6" value="파일 다운로드" edge="1" parent="1" source="assets" target="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="883" y="534" />
-              <mxPoint x="883" y="396" />
-              <mxPoint x="1174" y="396" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="decor27" value="음원·라디오" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=17;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="407" width="139" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="edge-7" value="직접 스트리밍 · Worker 미경유" edge="1" parent="1" source="radio" target="pc" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="155" y="661" />
-              <mxPoint x="929" y="661" />
-              <mxPoint x="929" y="470" />
-              <mxPoint x="1016" y="470" />
-              <mxPoint x="1016" y="269" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="decor28" value="PC가 직접 수신" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=14;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="432" width="139" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="edge-8" value="믹싱 후 출력" edge="1" parent="1" source="pc" target="spk" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points"><mxPoint x="1335" y="293" /><mxPoint x="1335" y="557" /></Array></mxGeometry>
+        <mxCell id="pc" value="" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D4DFE7;strokeWidth=1.1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="398" width="205" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="note" parent="1" vertex="1" value="위쪽은 제어·상태, 아래쪽은 음원 경로. 공개 UI와 코드 구조를 대조했으며 실제 방·스피커 출력은 시연하지 않았다." style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#43586D;fontSize=17;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="45" y="736" width="1326" height="38" as="geometry" />
+        <mxCell id="decor29" value="" style="ellipse;fillColor=#FFF0DE;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="413.0" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="decor30" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23A9530D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%225%22%20y%3D%228%22%20width%3D%2238%22%20height%3D%2226%22%20rx%3D%224%22%2F%3E%3Cpath%20d%3D%22M24%2035v6m-8%200h16%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="295.16" y="418.16" width="32.68" height="32.68" as="geometry" />
+        </mxCell>
+        <mxCell id="decor31" value="지정 현장 PC" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=17;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="342" y="407" width="139" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="decor32" value="Web Audio · 혼합 재생" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=14;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="342" y="432" width="139" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="out" value="" style="rounded=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#D4DFE7;strokeWidth=1.1;" vertex="1" parent="1">
+          <mxGeometry x="512" y="398" width="205" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="decor33" value="" style="ellipse;fillColor=#FFF0DE;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="413.0" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="decor34" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23A9530D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M8%2018h7l10-9v30l-10-9H8zM31%2016c5%205%205%2011%200%2016m5-21c8%208%208%2018%200%2026%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="527.16" y="418.16" width="32.68" height="32.68" as="geometry" />
+        </mxCell>
+        <mxCell id="decor35" value="현장 스피커" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=17;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="574" y="407" width="139" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="decor36" value="PC의 오디오 출력" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=14;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="574" y="432" width="139" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="decor37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#A9530D;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=0;dashPattern=5 5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="src" target="pc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="decor38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#A9530D;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=0;dashPattern=5 5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="pc" target="out">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="decor39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#14679D;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=0;dashPattern=5 5;exitX=0.42;exitY=1;entryX=0.42;entryY=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="worker" target="pc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="decor40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#087D68;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=1;dashPattern=5 5;exitX=0.78;exitY=0;entryX=0.78;entryY=1;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="pc" target="worker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="decor41" value="명령" style="text;html=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=15;fontColor=#14679D;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="292" y="321" width="80" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="decor42" value="결과" style="text;html=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=15;fontColor=#087D68;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="321" width="74" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
